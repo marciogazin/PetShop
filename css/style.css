@@ -1,0 +1,102 @@
+body,
+li,
+a {
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(216, 0, 205), rgb(250, 2, 105));
+}
+
+/*-------HEADER--------*/
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(216, 0, 205), rgb(250, 2, 105));
+    height: 100px;
+    box-shadow: 2px 1px 20px rgb(56, 0, 0);
+    border-bottom: 2px solid rgb(155, 0, 129);
+}
+
+.cabecalho img {
+    height: 90px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin: 20px;
+    font-size: 1.5rem;
+    color: rgb(250, 201, 241);
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.menu ul li:hover {
+    margin: 20px;
+    font-size: 1.5rem;
+    color: rgb(255, 253, 253);
+    border-radius: 30%;
+    background-color: black;
+    border: 2px solid rgb(247, 163, 242);
+    transition: 0.2s;
+}
+
+/*----------MAIN------------*/
+h1.services {
+    text-align: center;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.grid img {
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+    border: 10px solid rgb(84, 4, 92);
+}
+
+.grid img:hover {
+    box-shadow: 0px 0px 100px rgb(41, 1, 38);
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 50%;
+    border: 10px solid rgb(182, 12, 197);
+}
+
+/*--------FOOTER---------*/
+footer {
+    text-align: center;
+    background-color: rgb(189, 43, 226);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid rgb(139, 2, 121);
+    box-shadow: 2px -1px 20px rgb(56, 0, 0);
+    transition: 0.5s;
+}
+
+footer:hover {
+    text-align: center;
+    background-color: rgb(126, 29, 150);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid rgb(139, 2, 121);
+    box-shadow: 2px -1px 20px rgb(56, 0, 0);
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
